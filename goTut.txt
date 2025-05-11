@@ -15,9 +15,11 @@ Module
 
 $git status
 $git add -A 
-$git message "first file"
+$git commit -m "first"
 $git push
 $git pull
+$git rm  #remove file
+$git mv #move file or folder
 
 $go mod init goTut
 $mkdir cmd
