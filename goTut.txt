@@ -1,0 +1,25 @@
+Learn Go Fast: Full Tutorial (YT by Alux Mux)
+github.com/avukadin/go_tutorials
+---------------------------------------------
+$go version  #show go version
+
+
+
+Module
+    Package1
+        file1.go
+        file2.go
+    Package2
+        file1.go
+        file2.go
+
+$git status
+$git add -A 
+$git message "first file"
+$git push
+$git pull
+
+$go mod init goTut
+$mkdir cmd
+$mkdir cmd/tutorial_1
+$touch cmd/tutorial_1/main.go
