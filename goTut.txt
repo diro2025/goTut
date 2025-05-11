@@ -25,3 +25,5 @@ $go mod init goTut
 $mkdir cmd
 $mkdir cmd/tutorial_1
 $touch cmd/tutorial_1/main.go
+$go build cmd/tutorial_1/main.go
+$go run cmd/tutorial_1/main.go
